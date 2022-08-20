@@ -1,0 +1,118 @@
+@import url(./_reset.css);
+@import url(./_base.css);
+@import url(./_typography.css);
+
+/* write your CSS here */
+
+.top-bg {
+  background-color: #6595ed;
+  height: 30vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+.all__cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex: 1;
+  position: absolute;
+  top: 15%;
+  width: 60vw;
+  left: 20%;
+  
+  
+}
+
+.card{
+  background-color: #232f39;
+  border-radius: 8px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  
+  
+  width: 300px;
+  top: 20%;
+  left: calc(50% - 150px);
+  padding: 30px 0px;
+  margin: 40px;
+ 
+  
+}
+
+.img-wrapper{
+  position: relative;
+}
+
+img{
+  height: 100px;
+  border: white solid 2px;
+  border-radius: 50px;
+}
+
+.notifecation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: red;
+  border: solid 2px #232f39;
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  bottom: 3px;
+  right: 100px;
+}
+
+h1{
+  color: white;
+  padding: 10px;
+}
+
+h2{
+  color: #5dacf1;
+  padding-bottom: 20px;
+}
+
+.stats{
+  background-color:#6595ed ;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.stats__middle{
+  background-color:#0f7ec5;
+  padding: 15px;
+}
+
+
+/* the number */
+h3{
+  font-size: 22px;
+}
+
+/* the text under the numbers */
+h4{
+  font-size: 15px;
+  color: #b5cfff;
+}
+
+
+button{
+  border: 4px white solid;
+  color: white;
+  font-size: 20px;
+  padding: 20px 0px;
+  margin: 20px 40px;
+  cursor: pointer;
+  position: relative;
+  top: 20px;
+}
+  
